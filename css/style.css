@@ -1,0 +1,44 @@
+body {
+    background-color: #35402d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#form-cadastro {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(26, 50, 14, 0.5);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.linha label {
+    text-align: left;
+    flex-basis: 35%;
+}
+
+.linha input {
+    flex-grow: 1;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: #215200;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 100%;
+}
